@@ -1,0 +1,578 @@
+body
+{
+    background-color: #DCDCDC;
+    background-image: url("https://tartex.fr/wp-content/uploads/2015/06/back-ardoise.jpg");
+    background-attachment: fixed;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header
+{
+    height: 100%;
+}
+
+#navbar
+{
+    display: flex;
+    background-color: black;
+    position: fixed;
+    padding-top: 3%;
+    padding-right: 50%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid red;
+    width: 100%;
+    margin: -1%;
+    z-index: 1;
+}
+
+#navbar a
+{
+    color: white;
+}
+
+#navbar a:hover
+{
+    color:gold;
+}
+
+#logo 
+{
+    position: absolute;
+    left: 61.5%;
+    top: 10%;
+}
+
+#logo img
+{
+    width: 14%;
+    height: 10%;
+}
+
+#navbar h1
+{
+    color: white;
+    margin-left: 10%;
+    font-size: 3em;
+    margin-top: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu ul
+{
+    position: relative;
+	display: flex;
+    left: 0%;
+}
+
+.menu li
+{
+	list-style-type: none;
+	margin-right: 40px;
+	cursor: pointer;
+}
+
+#navbar a
+{
+    position: relative;
+    left: 20%;
+    margin-top: 1.5%;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#descriptif
+{
+    padding-top: 12%;
+}
+
+#diapo
+{
+    width: 53%;
+    border: solid 2px red;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden; 
+    box-shadow: 0 0 15px ivory;
+    border-radius: 20px;
+}
+
+#diapo img
+{
+    width: 50%;
+    height: 100%;
+}
+
+#diapo1 
+{
+    animation: slide 19.5s ease infinite 0s;
+    display: flex;
+  }
+  @keyframes slide {
+    0%, 10.26%, 100% {
+      transform: translate(0,0);
+    }
+    17.95%, 28.21% {
+      transform: translate(-50%,0);
+    }
+    35.90%, 46.15% {
+      transform: translate(-100%,0);
+    }
+    53.85%, 64.10% {
+      transform: translate(-150%,0);
+    }
+    71.79%, 82.05% {
+      transform: translate(-200%,0);
+    }
+    89.74%, 100% {
+      transform: translate(-250%,0);
+    }
+  }
+
+h1
+{
+    font-size: 3em;
+    text-align: center;
+    color: gold;
+}
+
+#descriptif p 
+{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#descriptif a
+{
+    color: white;
+}
+
+#descriptif a:hover
+{
+    color: gold;
+}
+
+
+#infos_banniere
+{
+   margin-left: -5%;
+   padding-top: 6%;
+}
+
+#carte
+{
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+#carte strong
+{
+    text-decoration: underline;
+    line-height: 3em;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 5%;
+    color: gold;
+}
+
+h3
+{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    color: gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4
+{
+    font-size: 1.2em;
+    color: gold;
+    text-align: center;
+    padding-bottom: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+h5
+{
+    font-size: 1em;
+}
+
+#carte ul
+{
+    width: 45%;
+    border: 2px solid rgb(199, 15, 15);
+    border-radius: 20px;
+    box-shadow: 0 0 20px white;
+    font-size: 1.5em;
+    margin-left: 25%;
+}
+
+#carte li
+{
+    list-style-type: none;
+    margin-bottom: 11%;
+}
+
+#menu
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#menu-p
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#menu img
+{
+    justify-content: flex-start;
+    width: 40%;
+}
+
+#menu p
+{
+    margin-left: 3%;
+}
+
+#menu-s
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-s span
+{
+    margin-left: 90%;
+}   
+
+#menu-s p
+{
+    line-height: 0.15em;
+}
+#menu-s img
+{
+    width: 45%;
+}
+
+#menu-o
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-o p
+{
+    line-height: 0.5em;
+}
+
+#c-sucrée
+{
+    width: 50%;
+}
+
+#c-sucrée img
+{
+    width: 55%;
+}
+
+#desserts
+{
+    width: 45%;
+}
+
+#desserts img
+{
+    width: 50%;
+}
+
+#images-boissons
+{
+    width: 65%;
+}
+
+#images-boissons img
+{
+    width: 80%;
+}
+
+#contact
+{
+    padding: 3%;
+    margin-left: -0.5%;
+    margin-right: -0.5%;
+    background-color: black;
+    color: white;
+}
+
+#contact h6
+{
+    margin-left: 40%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 2em;
+    color: yellow;
+}
+
+#halal 
+{
+    width: 4%;
+    margin-left: 90%;
+    margin-top: -10%
+}
+
+#contact p
+{
+    margin-left: 5%;
+}
+
+#contact a 
+{
+    color: white;
+}
+
+#contact a:hover
+{
+    color: gold;
+}
+
+#contact ul
+{
+    margin-left: 5%;
+    margin-top: 2% ;
+}
+
+#contact li
+{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#contact ul img
+{
+    width: 8%;
+}
+
+#contact iframe
+{
+    margin-left: 50%;
+    margin-bottom: -32%;
+}
+
+@media (max-width: 720px)
+{
+    body
+    {
+        width: 98%;
+    }
+
+    #logo
+    {
+        left: 4%;
+        top: 10%;
+    }
+
+    #logo img
+    {
+        width: 30%;
+    }
+
+    #navbar
+    {
+        top: 0%;
+        display: block;
+        padding-bottom: 6%;
+        margin: -3%;
+    }
+    
+    .menu ul
+    {
+        text-align: right;
+        margin-top: 8%;
+        display: block;
+    }
+
+    .menu li
+    {
+        margin-right: 10%;
+        margin-top: 1%;
+    }
+
+    #navbar a
+    {
+        left: 0%;
+    }
+
+    #navbar h1
+    {
+        display: none;
+    }
+
+    #descriptif
+    {
+        padding-left: 1%;
+        padding-top: 60%;
+    }
+
+    #descriptif p
+    {
+        font-size: 1.2em;
+    }
+
+    #diapo
+    {
+        width: 90%;
+    }
+
+    #infos_banniere
+    {
+        width: 80%;
+        margin-left: 5%;
+    }
+    
+    h4
+    {
+        font-size: 1.1em;
+    }
+
+    #carte ul 
+    {
+        width: 75%;
+        margin-bottom: 15%;
+        margin-left: 5%;
+    }
+
+    #carte p
+    {
+        margin-left: -7%;
+    }
+
+    #carte strong
+    {
+        line-height: 1em;
+    }
+
+    #carte img
+    {
+        width: 90%;
+        margin-left: 0%;
+        margin-top: 0%;
+        margin-bottom: 10%;
+    }
+
+    #menu
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #menu-s
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #menu-s p
+    {
+        line-height: 0.15em;
+    }
+
+    #menu-s span
+    {
+        margin-left: 75%;
+    }
+
+    #menu-o
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #menu-o p
+    {
+        line-height: 1em;
+    }
+
+    #c-sucrée
+    {
+        margin-top: 0%;
+        margin-left: 5%;
+    }
+
+    #desserts
+    {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+    #c-sucrée img
+    {
+        width: 160%;
+    }
+
+    #desserts img
+    {
+        width: 160%;
+    }
+    
+    #images-boissons
+    {
+        display: none;
+    }
+
+    h4
+    {
+        text-align: start;
+    }
+
+    #contact
+    {
+        margin-left: -1.5%;
+        margin-right: 0%;
+        padding-bottom: 100%;
+    }
+
+    #contact h6
+    {
+        margin-left: 8%;
+        margin-top: 5%;
+        margin-bottom: -2%;
+    }
+
+    #halal
+    {
+        width: 15%;
+        margin-left: 85%;
+        margin-top: -11%;
+    }
+
+    #contact p
+    {
+        text-align: center;
+    }
+
+    #contact ul
+    {
+        display: flex;
+    }
+
+    #contact ul img
+    {
+        width: 40%;
+    }
+
+    #contact iframe
+    {
+        width: 95%;
+        margin-left: 2%;
+        margin-bottom: -165%;
+    }
+}
