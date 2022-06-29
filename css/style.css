@@ -345,26 +345,34 @@ h5
 }
 
 #contact ul
-{
-    margin-left: 5%;
-    margin-top: 2% ;
+{    
+    display: flex;
+    width: 30%;
+    margin-left: 1%;
+    margin-top: 2%;
 }
 
 #contact li
 {
     list-style-type: none;
     cursor: pointer;
+    margin: 1%;
 }
 
 #contact ul img
 {
-    width: 8%;
+    width: 80%;
+}
+
+#mail img
+{
+    width: 100%;
 }
 
 #contact iframe
 {
     margin-left: 50%;
-    margin-bottom: -32%;
+    margin-bottom: -25%;
 }
 
 @media (max-width: 720px)
@@ -562,17 +570,18 @@ h5
     #contact ul
     {
         display: flex;
+        width: 80%;
     }
 
     #contact ul img
     {
-        width: 40%;
+        width: 50%;
     }
 
     #contact iframe
     {
         width: 95%;
         margin-left: 2%;
-        margin-bottom: -165%;
+        margin-bottom: -200%;
     }
 }
